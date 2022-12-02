@@ -1,0 +1,163 @@
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: center;
+    height: 558px;
+    width: 350px;
+}
+
+
+.card__block{
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    width: 350px;
+    height: 478px;
+}
+
+.card__img {
+    position: absolute;
+    width: 350px;
+    height: 478px;
+}
+
+.card__hover{
+    display: none;
+    position: absolute;
+    width: 350px;
+    height: 478px;
+    background: rgba(110, 156, 159, 0.77);
+}
+
+.card_block:hover .card__hover{
+    display: flex;
+   
+}
+
+
+
+
+.card__title{
+    margin: 10px;
+}
+
+.prise{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+}
+.prise h6:first-child{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 140%;
+letter-spacing: 0.02em;
+text-decoration-line: line-through;
+margin-right: 10px;
+color: #9C9C9C;
+
+}
+.card  h4{
+    margin: 10px 0 5px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #000000;
+}
+.prise h6{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 140%;
+    letter-spacing: 0.02em;
+    color: #998E78;
+}
+.card Image{
+    width: 350px;
+    height: 478px;
+}
+
+
+
+
+.card_1{
+    width: 305px;
+    height: 270px;
+}
+.card_1 h3{
+    margin: 24px 0;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 140%;
+    /* identical to box height, or 35px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+    
+}
+.card_1  h5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    /* or 24px */
+    
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+}
+
+
+
+.title{
+    margin:120px 0;
+}
+.title a{
+    text-decoration: none;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;  
+    color: #000000;
+    }
+.title h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 110%;
+    letter-spacing: 0.02em;
+    color: #000000;
+    margin: 0 0  25px 0;
+}
+.title h5{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 140%;
+    letter-spacing: 0.02em;  
+    color: #000000;
+}
+.title span{
+    font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 140%;
+letter-spacing: 0.02em;
+color: #919191;
+}

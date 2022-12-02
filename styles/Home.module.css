@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap');
+
+
+
+.first__main{
+  display: flex;
+  max-width: 1110px;
+  height: 900px;
+}
+
+.left__main{
+  margin-top: 200px;
+}
+.left__main h1{
+  width: 585px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 55px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.left__main h4{
+  width: 385px;
+  margin: 50px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 140%;
+  text-align: right;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.left__main button:hover{
+  background: #509498;
+}
+.left__main a{
+  text-decoration: none;
+}
+.left__main button{
+  display: flex;
+  margin: 0 0 0 140px;
+  flex-direction: row;
+  align-items: center;
+  padding: 22px 50px;
+  gap: 10px;
+  width: 243px;
+  height: 68px;
+  background: #6E9C9F;
+  border: none;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 138.9%;
+  letter-spacing: 0.02em;
+  color: #FFFFFF;
+}
+
+
+.right__main {
+  position: relative;
+}
+.Image__1{
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+.Image__2{
+  position: absolute;
+  left: 115px;
+}
+.Image__3{
+  position: absolute;
+  left: 400px;
+  top: 100px;
+}
+
+
+.second__main{
+  margin: 100px 00 0 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.second__main h3{
+  width: 100%;
+  font-family: 'Raleway';
+font-style: normal;
+font-weight: 500;
+font-size: 40px;
+line-height: 110%;
+letter-spacing: 0.02em;
+color: #000000;
+}
+
+.second__main button:hover{
+  background: #6E9C9F;
+  color: #fff;
+}
+.second__main a{
+  text-decoration: none;
+}
+.second__main button{
+  margin: 65px 0;
+  box-sizing: border-box;
+  display: flex;
+flex-direction: row;
+align-items: center;
+padding: 22px 48px;
+width: 245px;
+height: 68px;
+background: #fff;
+border: 1px solid #6E9C9F;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 400;
+font-size: 17px;
+line-height: 138.9%;
+letter-spacing: 0.02em;
+color: #6E9C9F;
+}
+.cards{
+  margin: 90px 0 0 0;
+  display: flex;
+  gap: 30px;
+}
+
+
+
+.therd__main h2{
+  margin: 70px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  
+}
+
+.cards_1{
+  display: flex;
+  gap: 75px;
+}
+
+.fourth__main {
+  margin: 130px  0;
+}
+.fourth__main h2{
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 110%;
+  letter-spacing: 0.02em;
+  color: #000000;
+  margin: 0 0 80px 0;
+}
+
+
+.team__member{
+  display: flex;
+  gap: 125px;
+}
+.team__title{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  
+}
+.team__title h3{
+  margin: 20px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.team__title h5{
+  margin: 10px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #000000;
+}
+.team__title a{
+  margin: 10px 0;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 140%;
+  letter-spacing: 0.02em;
+  color: #6E9C9F;
+  text-decoration: none;
+  
+}
